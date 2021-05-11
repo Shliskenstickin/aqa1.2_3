@@ -19,6 +19,6 @@ public class PostmanEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("text/plain; charset=UTF-8"));
+                .body("data", equalTo("/Привет/тут?рука=волна"));
     }
 }
